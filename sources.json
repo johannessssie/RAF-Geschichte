@@ -13,5 +13,40 @@
     "title": "Bundesarchiv",
     "url": "https://www.bundesarchiv.de/",
     "type": "Institution – Startseite"
+  },
+  {
+    "title": "bpb – Kurze Geschichte der RAF",
+    "url": "https://www.bpb.de/kurz-knapp/taegliche-dosis-politik/515764/kurze-geschichte-der-raf/",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "bpb – Die Geschichte der RAF",
+    "url": "https://www.bpb.de/themen/linksextremismus/geschichte-der-raf/",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "bpb – Chronologie der RAF",
+    "url": "https://www.bpb.de/themen/linksextremismus/geschichte-der-raf/49255/chronologie-der-raf/",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "LeMO – Linksterrorismus",
+    "url": "https://www.hdg.de/lemo/kapitel/geteiltes-deutschland-krisenmanagement/linksterrorismus-rote-armee-fraktion",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "LeMO – Deutscher Herbst",
+    "url": "https://www.hdg.de/lemo/kapitel/geteiltes-deutschland-krisenmanagement/linksterrorismus-rote-armee-fraktion/deutscher-herbst.html",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "bpb – Die RAF heute",
+    "url": "https://www.bpb.de/themen/linksextremismus/geschichte-der-raf/49321/die-raf-heute/",
+    "type": "Historischer Fachtext"
+  },
+  {
+    "title": "bpb – Nachkriegsgeschichte",
+    "url": "https://www.bpb.de/system/files/dokument_pdf/IzpB_358_Nachkriegsgeschichte_barr.pdf",
+    "type": "Historischer Fachtext"
   }
 ]
