@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meine persönliche Website">
+  <title>Meine Website</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --card:#151d33; --accent:#7c9cff; --text:#eef2ff; --muted:#b7c0da; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(135deg,#0b1020,#182342); color:var(--text); min-height:100vh; }
+    .wrap { max-width:920px; margin:0 auto; padding:0 22px; }
+    header { padding:22px 0; border-bottom:1px solid #ffffff22; }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:18px; }
+    .logo { font-weight:800; font-size:20px; }
+    nav a, footer a { color:var(--muted); text-decoration:none; }
+    nav a:hover, footer a:hover { color:white; }
+    .links { display:flex; gap:22px; }
+    main { padding:90px 0 64px; }
+    .eyebrow { color:var(--accent); font-size:14px; font-weight:700; text-transform:uppercase; letter-spacing:2px; }
+    h1 { font-size:clamp(38px,7vw,72px); line-height:1.1; letter-spacing:-2px; margin:14px 0 20px; }
+    p { color:var(--muted); font-size:18px; line-height:1.6; max-width:650px; }
+    .button { display:inline-block; margin-top:16px; background:var(--accent); color:#0b1020; padding:14px 24px; border-radius:12px; text-decoration:none; font-weight:800; }
+    .button:hover { background:#a3b8ff; }
+    section { padding:40px 0; }
+    h2 { font-size:28px; margin:0 0 20px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
+    .card { padding:24px; background:var(--card); border:1px solid #ffffff1c; border-radius:18px; }
+    .card h3 { margin-top:0; }
+    .card p { font-size:16px; margin-bottom:0; }
+    footer { border-top:1px solid #ffffff22; padding:24px 0; color:var(--muted); font-size:14px; }
+    @media (max-width:520px) { .links { gap:12px; font-size:14px; } main { padding-top:60px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Hauptnavigation">
+        <div class="logo">Meine Website</div>
+        <div class="links"><a href="#ueber-mich">Über mich</a><a href="#kontakt">Kontakt</a></div>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="eyebrow">Willkommen</div>
+    <h1>Hey, schön, dass du da bist.</h1>
+    <p>Das ist meine erste eigene Website – kostenlos veröffentlicht mit GitHub Pages. Hier kann ich später alles einbauen, was ich möchte.</p>
+    <a class="button" href="#ueber-mich">Mehr erfahren</a>
+    <section id="ueber-mich">
+      <h2>Über diese Seite</h2>
+      <div class="grid">
+        <div class="card"><h3>Mein Projekt</h3><p>Hier kannst du dein Projekt oder deine Idee vorstellen.</p></div>
+        <div class="card"><h3>Was kommt noch?</h3><p>Weitere Inhalte, Bilder und Funktionen können jederzeit ergänzt werden.</p></div>
+      </div>
+    </section>
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Hier kannst du später deine Kontaktinformationen oder Social-Media-Links eintragen.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">© <span id="year"></span> Meine Website</div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
